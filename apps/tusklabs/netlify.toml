@@ -1,0 +1,8 @@
+
+
+[[edge_functions]]
+function = "getNrwl"
+path = "/nrwl"
+
+[dev]
+targetPort = 4200
