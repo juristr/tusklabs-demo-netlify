@@ -2,11 +2,13 @@
 import styles from './app.module.css';
 
 import NxWelcome from './nx-welcome';
+import { SharedUiComponents } from '@tusklabs/shared/ui-components';
 
 export function App() {
   return (
     <div>
       <NxWelcome title="tusklabs" />
+      <SharedUiComponents />
     </div>
   );
 }
